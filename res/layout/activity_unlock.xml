@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".UnlockActivity" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/chooser"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|fill_vertical"
+        android:layout_weight="0.20"
+        android:gravity="center" />
+    <ImageView
+        android:contentDescription="@string/target_area_desc"
+        android:id="@+id/dropper"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|fill_vertical"
+        android:layout_weight="0.20"
+        android:src="@drawable/drop_area" />
+</LinearLayout>

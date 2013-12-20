@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Haptic Unlocker</string>
+    <string name="target_area_desc">Target area for dropping password elements</string>
+
+</resources>
