@@ -1,3 +1,5 @@
+// Copyright 2013 Google Inc. All rights reserved.
+
 package edu.mit.lizfong.android.hapticunlock;
 
 import android.app.Service;
